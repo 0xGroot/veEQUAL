@@ -18,6 +18,7 @@
     "ve:FVM": "node src/veFVM.mjs",
     "ve:HRA": "node src/veHRA.mjs",
     "ve:Retro": "node src/veRetro.mjs"
+    "ve:EQUALSonic": "node src/veEQUALSonic.mjs"
   },
   "keywords": [],
   "author": "oxSaturn",

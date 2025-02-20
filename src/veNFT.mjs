@@ -14,6 +14,7 @@ import {
   mantle,
   avalanche,
   linea,
+  sonic,
 } from "viem/chains";
 
 const batch = {
@@ -92,6 +93,11 @@ export const bnbPublicClient = createPublicClient({
 export const polygonPublicClient = createPublicClient({
   chain: polygon,
   transport: http("https://polygon.meowrpc.com"),
+});
+
+export const sonicPublicClient = createPublicClient({
+  chain: sonic,
+  transport: http("https://rpc.soniclabs.com"),
 });
 
 // different rpcs will support different chunk sizes
